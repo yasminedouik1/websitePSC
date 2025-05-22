@@ -1,0 +1,64 @@
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  margin-top: 120px;
+  position: relative;
+  width: 100vw;
+  height: 200px;
+  left: 0;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+  
+  .footer h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .text-center {
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+  
+  .text-left {
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
+  .text-right {
+    font-size: 1rem;
+    color: #ddd;
+  }
+  .logoCaliFooter{
+    text-align: left;
+    padding-top: 20px;
+    margin-left: -30px;
+ 
+  }
+  .textFooter{
+    text-align: left;
+    font-size: 12px;
+  
+
+  }
+  
