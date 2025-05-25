@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import hair from "../../assets/hair.jpg";
+import hair from "../../assets/fete.jpg";
 import woman from "../../assets/img.png";
 import w3 from "../../assets/w3.jpg";
-import tapis from "../../assets/tapis.jpg";
+import tapis from "../../assets/artisanat.png";
 import flag from "../../assets/flag.png";
 
 

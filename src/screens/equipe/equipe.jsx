@@ -79,38 +79,16 @@ function EquipePage() {
           </Col>
         </Row>
         <Row className="my-5">
+  <Col md={12} className="text-center">
+    <img
+      src="./src/assets/tout.jpg"
+      alt="Illustration du projet Tamazirna"
+      className="img-fluid rounded"
+      style={{ width: '100%', maxHeight: '700px', objectFit: 'cover' }}
+    />
+  </Col>
+</Row>
 
-
-          <Col md={4} className="text-center mb-4">
-            <img
-              src="./src/assets/poly.jpg"
-              alt="Logo École Polytechnique de Sousse"
-              className="img-fluid"
-              style={{ maxHeight: '150px' }}
-            />
-            <p className="mt-2">École Polytechnique de Sousse</p>
-          </Col>
-
-          <Col md={4} className="text-center mb-4">
-            <img
-              src="./src/assets/projet1.jpg"
-              alt="Travail en groupe"
-              className="img-fluid rounded"
-              style={{ maxHeight: '180px', objectFit: 'cover' }}
-            />
-            <p className="mt-2">Travail collaboratif</p>
-          </Col>
-
-          <Col md={4} className="text-center mb-4">
-            <img
-              src="./src/assets/projet2.jpg"
-              alt="Présentation du projet"
-              className="img-fluid rounded"
-              style={{ maxHeight: '180px', objectFit: 'cover' }}
-            />
-            <p className="mt-2">Présentation du projet</p>
-          </Col>
-        </Row>
 
       </Container>
 

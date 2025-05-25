@@ -17,9 +17,9 @@ body {
 }
 .titre{
     margin-top: 100px;
-    color: #000000;  
+    color: #000000 !important;  
     font-weight: bold;  
-    font-size: 50px;
+    font-size: 28px !important;
     padding-bottom: 20px;
 }
 .section {
@@ -74,6 +74,12 @@ body {
     padding-right: 40px;
     animation: fadeInUp 1s ease-out;
 }
+
+.col-md-6 img {
+    margin-top: 0px; 
+    width: 700px;
+}
+
 
 @keyframes fadeInUp {
     0% {
