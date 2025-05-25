@@ -1,0 +1,61 @@
+/* Conteneur principal */
+.video-container {
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 30px;
+    animation: fadeInUp 0.8s ease-out;
+  }
+  
+  /* Titre principal */
+  .video-title {
+    color: #000;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Description */
+  .video-description {
+    color: #444;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+  
+  /* Player YouTube responsive */
+  .video-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  
+  .video-wrapper > div {
+    position: absolute;
+    top: 0;
+    left: 9%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Texte sous la vidéo */
+  .video-note {
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  /* Animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

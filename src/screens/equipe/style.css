@@ -22,3 +22,6 @@
     color: #444;
   }
   
+.cont1{
+  animation: fadeInUp 0.8s ease-out;
+}

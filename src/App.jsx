@@ -6,6 +6,7 @@ import TraditionCulture from './screens/tradition';
 import Footer from './components/Footer';
 import EquipePage from './screens/equipe/equipe'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import VideoPage from './screens/video';
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <NavbarComponent />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/equipe" element={<EquipePage />} />
+        <Route path="/about" element={<EquipePage />} />
         <Route path="/langue" element={<LanguePage />} />
         <Route path="/tradition" element={<TraditionCulture />} />
+        <Route path="/court-métrage" element={<VideoPage />} />
       </Routes>
       <Footer />
     </Router>
